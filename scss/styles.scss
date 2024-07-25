@@ -1,4 +1,4 @@
-.super-heading-background{
+.header{
    background: url("../images/header-background.jpg");
 }
 
@@ -19,3 +19,12 @@
     padding-top: 80px;
     padding-bottom: 80px;
 }
+
+.navbar {
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .navbar-sticky {
+    opacity: 0.9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
